@@ -2,7 +2,7 @@
 An activity indicator which makes your navigation and processing look cool
 
 -> There are 2 functions available
- 1.  addAnimationView(in: <UIView>, frame: <CGRect>, color: <UIColor?>, secondaryColor: <UIColor?>, types: <activityAnimatorTypes>)
+ 1.  addAnimationView(in: <UIView> , frame: <CGRect> , color: <UIColor?> , secondaryColor: <UIColor?> , types: <activityAnimatorTypes>)
  2.  stopAnimation(in: <UIView>)
 
 # AddAnimation
