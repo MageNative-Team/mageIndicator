@@ -650,7 +650,7 @@ public final class mageIndicator:UIView{
                 circle.add(animation, forKey: "animation")
                 layer.addSublayer(circle)
             }
-            let circle = mageIndicatorShapes.ring.layerWith(size: animationRect.size, color: .darkGray ?? self.color)
+            let circle = mageIndicatorShapes.ring.layerWith(size: animationRect.size, color: (secondaryColor ?? color) ?? self.color)
             let frame = CGRect(x: x,
                                    y: y,
                                    width: animationRect.size.width,
