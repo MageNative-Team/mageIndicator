@@ -2,8 +2,8 @@
 An activity indicator which makes your navigation and processing look cool
 
 -> There are 2 functions available
- 1.  addAnimationView(in: <#T##UIView#>, frame: <#T##CGRect#>, color: <#T##UIColor?#>, secondaryColor: <#T##UIColor?#>, types: <#T##activityAnimatorTypes#>)
- 2.  stopAnimation(in: <#T##UIView#>)
+ 1.  addAnimationView(in: <UIView>, frame: <CGRect>, color: <UIColor?>, secondaryColor: <UIColor?>, types: <activityAnimatorTypes>)
+ 2.  stopAnimation(in: <UIView>)
 
 # AddAnimation
  Parameters:-
@@ -16,6 +16,7 @@ An activity indicator which makes your navigation and processing look cool
 # How To Use
 
 Its quite simple.
+
     1. Create an instance of class mageIndicator() . Make sure its mageIndicator type.
     2. To add indicator use addAnimationView method .
     3. to stop animation use stopAnimatioin method.
