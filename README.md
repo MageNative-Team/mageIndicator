@@ -14,6 +14,29 @@ An activity indicator which makes your navigation and processing look cool
     3. color : An optional primary color of indicator. In case you provide nil , it will take white as default color
     4. secondaryColor : An optional secondary color which is applicable only for certain indicators. If you provide it as nil, it will take primary color and in case if primary color is also nil, it will take white.
     5. types : And finally , the type of indicator. We've provided 20 indicators. In future it will be updated.
+# Types
+
+ 1. lineUpDown
+ 2. circeRoundRound
+ 3. lineRoundRound
+ 4. threeDots
+ 5. lineMovinglikeFlag
+ 6. musicBeat
+ 7. expandingRing
+ 8. multipleRing
+ 9. wifiConnect
+10. waterDrop
+11. singleBubble
+12. multipleBubble
+13. seaWave
+14. stoneDrop
+15. rotatingArc
+16. rotatingWheel
+17. rotatingWheelWithScale
+18. rotatingSemiArcWithball
+19. rotatingArcwithArc
+20. rotatingBalls
+
 
 # How To Use
 
