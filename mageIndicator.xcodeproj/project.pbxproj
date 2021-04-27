@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3F24A72637E3880053A698 /* mageIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3F249D2637E3870053A698 /* mageIndicator.framework */; };
+		CF3F24AC2637E3880053A698 /* mageIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3F24AB2637E3880053A698 /* mageIndicatorTests.swift */; };
+		CF3F24AE2637E3880053A698 /* mageIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3F24A02637E3880053A698 /* mageIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF3F24C02637E3B70053A698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3F24BF2637E3B70053A698 /* AppDelegate.swift */; };
+		CF3F24C22637E3B70053A698 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3F24C12637E3B70053A698 /* SceneDelegate.swift */; };
+		CF3F24C42637E3B70053A698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3F24C32637E3B70053A698 /* ViewController.swift */; };
+		CF3F24C72637E3B70053A698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3F24C52637E3B70053A698 /* Main.storyboard */; };
+		CF3F24C92637E3BD0053A698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3F24C82637E3BD0053A698 /* Assets.xcassets */; };
+		CF3F24CC2637E3BD0053A698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3F24CA2637E3BD0053A698 /* LaunchScreen.storyboard */; };
+		CF3F24D52637E4060053A698 /* mageIndicatorShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3F24D42637E4060053A698 /* mageIndicatorShapes.swift */; };
+		CF3F24DA2637E4AC0053A698 /* mageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3F24D92637E4AC0053A698 /* mageIndicator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF3F24A82637E3880053A698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3F24942637E3870053A698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3F249C2637E3870053A698;
+			remoteInfo = mageIndicator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF3F249D2637E3870053A698 /* mageIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mageIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3F24A02637E3880053A698 /* mageIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mageIndicator.h; sourceTree = "<group>"; };
+		CF3F24A12637E3880053A698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3F24A62637E3880053A698 /* mageIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mageIndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3F24AB2637E3880053A698 /* mageIndicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mageIndicatorTests.swift; sourceTree = "<group>"; };
+		CF3F24AD2637E3880053A698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3F24BD2637E3B40053A698 /* mageIndicatorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mageIndicatorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3F24BF2637E3B70053A698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF3F24C12637E3B70053A698 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF3F24C32637E3B70053A698 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF3F24C62637E3B70053A698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF3F24C82637E3BD0053A698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3F24CB2637E3BD0053A698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF3F24CD2637E3BD0053A698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3F24D42637E4060053A698 /* mageIndicatorShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mageIndicatorShapes.swift; sourceTree = "<group>"; };
+		CF3F24D92637E4AC0053A698 /* mageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mageIndicator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3F249A2637E3870053A698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3F24A32637E3880053A698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3F24A72637E3880053A698 /* mageIndicator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3F24BA2637E3B40053A698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3F24932637E3870053A698 = {
+			isa = PBXGroup;
+			children = (
+				CF3F249F2637E3870053A698 /* mageIndicator */,
+				CF3F24AA2637E3880053A698 /* mageIndicatorTests */,
+				CF3F24BE2637E3B70053A698 /* mageIndicatorExample */,
+				CF3F249E2637E3870053A698 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3F249E2637E3870053A698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3F249D2637E3870053A698 /* mageIndicator.framework */,
+				CF3F24A62637E3880053A698 /* mageIndicatorTests.xctest */,
+				CF3F24BD2637E3B40053A698 /* mageIndicatorExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3F249F2637E3870053A698 /* mageIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				CF3F24A02637E3880053A698 /* mageIndicator.h */,
+				CF3F24A12637E3880053A698 /* Info.plist */,
+				CF3F24D42637E4060053A698 /* mageIndicatorShapes.swift */,
+				CF3F24D92637E4AC0053A698 /* mageIndicator.swift */,
+			);
+			path = mageIndicator;
+			sourceTree = "<group>";
+		};
+		CF3F24AA2637E3880053A698 /* mageIndicatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3F24AB2637E3880053A698 /* mageIndicatorTests.swift */,
+				CF3F24AD2637E3880053A698 /* Info.plist */,
+			);
+			path = mageIndicatorTests;
+			sourceTree = "<group>";
+		};
+		CF3F24BE2637E3B70053A698 /* mageIndicatorExample */ = {
+			isa = PBXGroup;
+			children = (
+				CF3F24BF2637E3B70053A698 /* AppDelegate.swift */,
+				CF3F24C12637E3B70053A698 /* SceneDelegate.swift */,
+				CF3F24C32637E3B70053A698 /* ViewController.swift */,
+				CF3F24C52637E3B70053A698 /* Main.storyboard */,
+				CF3F24C82637E3BD0053A698 /* Assets.xcassets */,
+				CF3F24CA2637E3BD0053A698 /* LaunchScreen.storyboard */,
+				CF3F24CD2637E3BD0053A698 /* Info.plist */,
+			);
+			path = mageIndicatorExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CF3F24982637E3870053A698 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3F24AE2637E3880053A698 /* mageIndicator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CF3F249C2637E3870053A698 /* mageIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3F24B12637E3880053A698 /* Build configuration list for PBXNativeTarget "mageIndicator" */;
+			buildPhases = (
+				CF3F24982637E3870053A698 /* Headers */,
+				CF3F24992637E3870053A698 /* Sources */,
+				CF3F249A2637E3870053A698 /* Frameworks */,
+				CF3F249B2637E3870053A698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mageIndicator;
+			productName = mageIndicator;
+			productReference = CF3F249D2637E3870053A698 /* mageIndicator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF3F24A52637E3880053A698 /* mageIndicatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3F24B42637E3880053A698 /* Build configuration list for PBXNativeTarget "mageIndicatorTests" */;
+			buildPhases = (
+				CF3F24A22637E3880053A698 /* Sources */,
+				CF3F24A32637E3880053A698 /* Frameworks */,
+				CF3F24A42637E3880053A698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3F24A92637E3880053A698 /* PBXTargetDependency */,
+			);
+			name = mageIndicatorTests;
+			productName = mageIndicatorTests;
+			productReference = CF3F24A62637E3880053A698 /* mageIndicatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF3F24BC2637E3B40053A698 /* mageIndicatorExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3F24CE2637E3BD0053A698 /* Build configuration list for PBXNativeTarget "mageIndicatorExample" */;
+			buildPhases = (
+				CF3F24B92637E3B40053A698 /* Sources */,
+				CF3F24BA2637E3B40053A698 /* Frameworks */,
+				CF3F24BB2637E3B40053A698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mageIndicatorExample;
+			productName = mageIndicatorExample;
+			productReference = CF3F24BD2637E3B40053A698 /* mageIndicatorExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3F24942637E3870053A698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					CF3F249C2637E3870053A698 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+					CF3F24A52637E3880053A698 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					CF3F24BC2637E3B40053A698 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = CF3F24972637E3870053A698 /* Build configuration list for PBXProject "mageIndicator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF3F24932637E3870053A698;
+			productRefGroup = CF3F249E2637E3870053A698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3F249C2637E3870053A698 /* mageIndicator */,
+				CF3F24A52637E3880053A698 /* mageIndicatorTests */,
+				CF3F24BC2637E3B40053A698 /* mageIndicatorExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3F249B2637E3870053A698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3F24A42637E3880053A698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3F24BB2637E3B40053A698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3F24CC2637E3BD0053A698 /* LaunchScreen.storyboard in Resources */,
+				CF3F24C92637E3BD0053A698 /* Assets.xcassets in Resources */,
+				CF3F24C72637E3B70053A698 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3F24992637E3870053A698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3F24D52637E4060053A698 /* mageIndicatorShapes.swift in Sources */,
+				CF3F24DA2637E4AC0053A698 /* mageIndicator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3F24A22637E3880053A698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3F24AC2637E3880053A698 /* mageIndicatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3F24B92637E3B40053A698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3F24C42637E3B70053A698 /* ViewController.swift in Sources */,
+				CF3F24C02637E3B70053A698 /* AppDelegate.swift in Sources */,
+				CF3F24C22637E3B70053A698 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF3F24A92637E3880053A698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3F249C2637E3870053A698 /* mageIndicator */;
+			targetProxy = CF3F24A82637E3880053A698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF3F24C52637E3B70053A698 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3F24C62637E3B70053A698 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF3F24CA2637E3BD0053A698 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3F24CB2637E3BD0053A698 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3F24AF2637E3880053A698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF3F24B02637E3880053A698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF3F24B22637E3880053A698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = mageIndicator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cedcoss.hritik.mageIndicator;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF3F24B32637E3880053A698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = mageIndicator/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cedcoss.hritik.mageIndicator;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF3F24B52637E3880053A698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				INFOPLIST_FILE = mageIndicatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cedcoss.hritik.mageIndicatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF3F24B62637E3880053A698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				INFOPLIST_FILE = mageIndicatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cedcoss.hritik.mageIndicatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF3F24CF2637E3BD0053A698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				INFOPLIST_FILE = mageIndicatorExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cedcoss.hritik.mageIndicatorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF3F24D02637E3BD0053A698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				INFOPLIST_FILE = mageIndicatorExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cedcoss.hritik.mageIndicatorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3F24972637E3870053A698 /* Build configuration list for PBXProject "mageIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3F24AF2637E3880053A698 /* Debug */,
+				CF3F24B02637E3880053A698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3F24B12637E3880053A698 /* Build configuration list for PBXNativeTarget "mageIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3F24B22637E3880053A698 /* Debug */,
+				CF3F24B32637E3880053A698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3F24B42637E3880053A698 /* Build configuration list for PBXNativeTarget "mageIndicatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3F24B52637E3880053A698 /* Debug */,
+				CF3F24B62637E3880053A698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3F24CE2637E3BD0053A698 /* Build configuration list for PBXNativeTarget "mageIndicatorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3F24CF2637E3BD0053A698 /* Debug */,
+				CF3F24D02637E3BD0053A698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3F24942637E3870053A698 /* Project object */;
+}
