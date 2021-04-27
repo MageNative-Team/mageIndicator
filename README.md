@@ -2,11 +2,13 @@
 An activity indicator which makes your navigation and processing look cool
 
 -> There are 2 functions available
+
  1.  addAnimationView(in: UIView  , frame: CGRect , color: UIColor? , secondaryColor: UIColor? , types: activityAnimatorTypes)
  2.  stopAnimation(in: UIView)
 
 # AddAnimation
  Parameters:-
+ 
     1. UIView : The View in which you want to add indicator.
     2. Frame : The frame in which indicator will appear.
     3. color : An optional primary color of indicator. In case you provide nil , it will take white as default color
