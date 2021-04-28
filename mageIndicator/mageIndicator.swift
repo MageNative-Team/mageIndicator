@@ -383,7 +383,6 @@ public final class mageIndicator:UIView{
 
             // Animation
             let animation = CAAnimationGroup()
-
             animation.animations = [scaleAnimation, opacityAnimation]
             animation.duration = duration
             animation.repeatCount = HUGE
@@ -420,7 +419,6 @@ public final class mageIndicator:UIView{
 
             // Opacity animation
             let opacityAnimation = CAKeyframeAnimation(keyPath: "opacity")
-
             opacityAnimation.keyTimes = [0, 0.7, 1]
             opacityAnimation.timingFunctions = [timingFunction, timingFunction]
             opacityAnimation.values = [1, 0.7, 0]
@@ -448,7 +446,7 @@ public final class mageIndicator:UIView{
                 layer.addSublayer(circle)
             }
             for i in 0 ..< 3 {
-                let circle = mageIndicatorShapes.ringDown.layerWith(size: animationRect.size, color: .red )
+                let circle = mageIndicatorShapes.ringDown.layerWith(size: animationRect.size, color: (secondaryColor ?? color) ?? self.color )
                 let frame = CGRect(x: x,
                                    y: y,
                                    width: animationRect.size.width,
@@ -560,7 +558,6 @@ public final class mageIndicator:UIView{
 
             // Animation
             let animation = CAAnimationGroup()
-
             animation.animations = [scaleAnimation, opacityAnimation]
             animation.timingFunction = CAMediaTimingFunction(name: .linear)
             animation.duration = duration
@@ -582,7 +579,7 @@ public final class mageIndicator:UIView{
                 layer.addSublayer(circle)
             }
             for i in 0 ..< 3 {
-                let circle = mageIndicatorShapes.circleDown.layerWith(size: animationRect.size, color: color ?? self.color)
+                let circle = mageIndicatorShapes.circleDown.layerWith(size: animationRect.size, color: (secondaryColor ?? color) ?? self.color)
                 let frame = CGRect(x: x,
                                    y: y,
                                    width: animationRect.size.width,
@@ -726,7 +723,7 @@ public final class mageIndicator:UIView{
             hline2.frame = frame
             hline2.add(animation, forKey: "animation")
             layer.addSublayer(hline2)
-            let circle=mageIndicatorShapes.ring.layerWith(size: CGSize(width: animationRect.size.width, height: animationRect.size.height), color: color ?? self.color)
+            let circle=mageIndicatorShapes.ring.layerWith(size: CGSize(width: animationRect.size.width, height: animationRect.size.height), color: (secondaryColor ?? color) ?? self.color)
             circle.frame=frame
             circle.add(animation, forKey: "animation")
             layer.addSublayer(circle)
@@ -755,7 +752,6 @@ public final class mageIndicator:UIView{
             animation.repeatCount = HUGE
             animation.isRemovedOnCompletion = false
 
-            // Draw circle
             let hline = mageIndicatorShapes.lineToRotate.layerWith(size: CGSize(width: animationRect.size.width, height: animationRect.size.height), color: color ?? self.color)
             let frame = CGRect(x: x,
                                y: y,
@@ -769,7 +765,8 @@ public final class mageIndicator:UIView{
             hline2.frame = frame
             hline2.add(animation, forKey: "animation")
             layer.addSublayer(hline2)
-            let circle=mageIndicatorShapes.ring.layerWith(size: CGSize(width: animationRect.size.width, height: animationRect.size.height), color: color ?? self.color)
+            
+            let circle=mageIndicatorShapes.ring.layerWith(size: CGSize(width: animationRect.size.width, height: animationRect.size.height), color: (secondaryColor ?? color) ?? self.color)
             circle.frame=frame
             circle.add(animation, forKey: "animation")
             layer.addSublayer(circle)
@@ -858,7 +855,7 @@ public final class mageIndicator:UIView{
             downArc.frame = frame
             downArc.add(animation, forKey: "animation")
             layer.addSublayer(downArc)
-            let right = mageIndicatorShapes.ringRight.layerWith(size: CGSize(width: animationRect.size.width/2, height: animationRect.size.height/2), color: color ?? self.color)
+            let right = mageIndicatorShapes.ringRight.layerWith(size: CGSize(width: animationRect.size.width/2, height: animationRect.size.height/2), color: (secondaryColor ?? color) ?? self.color)
             let frame2 = CGRect(x: x+animationRect.size.width/4,
                                                                                                                                                                                              y: y+animationRect.size.height/4,
                                                                                                                                                                                              width: animationRect.size.width/2,
@@ -867,7 +864,7 @@ public final class mageIndicator:UIView{
             right.frame = frame2
             right.add(animation, forKey: "animation")
             layer.addSublayer(right)
-            let left = mageIndicatorShapes.ringLeft.layerWith(size: CGSize(width: animationRect.size.width/2, height: animationRect.size.height/2), color: color ?? self.color)
+            let left = mageIndicatorShapes.ringLeft.layerWith(size: CGSize(width: animationRect.size.width/2, height: animationRect.size.height/2), color: (secondaryColor ?? color) ?? self.color)
             
             left.frame = frame2
             left.add(animation, forKey: "animation")
@@ -906,7 +903,7 @@ public final class mageIndicator:UIView{
             // Draw circles
             let leftCircle = mageIndicatorShapes.circle.layerWith(size: CGSize(width: circleSize, height: circleSize), color: color ?? self.color)
             let rightCircle = mageIndicatorShapes.circle.layerWith(size: CGSize(width: circleSize, height: circleSize), color: color ?? self.color)
-            let centerCircle = mageIndicatorShapes.circle.layerWith(size: CGSize(width: circleSize, height: circleSize), color: color ?? self.color)
+            let centerCircle = mageIndicatorShapes.circle.layerWith(size: CGSize(width: circleSize, height: circleSize), color: (secondaryColor ?? color) ?? self.color)
 
             leftCircle.opacity = 0.6
             leftCircle.frame = CGRect(x: 0, y: (animationRect.size.height - circleSize) / 2, width: circleSize, height: circleSize)

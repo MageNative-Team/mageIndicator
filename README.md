@@ -37,6 +37,15 @@ An activity indicator which makes your navigation and processing look cool
 19. rotatingArcwithArc
 20. rotatingBalls
 
+# Demo
+
+/var/folders/69/zrbsq9cd3mb0gndj5v923j_40000gn/T/TemporaryItems/(A Document Being Saved By screencaptureui)/Screen Recording 2021-04-28 at 8.53.32 AM.mov
+
+/var/folders/69/zrbsq9cd3mb0gndj5v923j_40000gn/T/TemporaryItems/(A Document Being Saved By screencaptureui 2)/Screen Recording 2021-04-28 at 8.55.33 AM.mov
+
+/var/folders/69/zrbsq9cd3mb0gndj5v923j_40000gn/T/TemporaryItems/(A Document Being Saved By screencaptureui 4)/Screen Recording 2021-04-28 at 8.57.18 AM.mov
+
+And many more...
 
 # How To Use
 
