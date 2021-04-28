@@ -43,9 +43,15 @@ An activity indicator which makes your navigation and processing look cool
 https://user-images.githubusercontent.com/82655194/116343040-47ebc700-a801-11eb-8232-525f22131389.mov
 
 
+https://user-images.githubusercontent.com/82655194/116343158-8c776280-a801-11eb-822d-a400d99e2fe7.mov
 
 
 
+https://user-images.githubusercontent.com/82655194/116343364-e841eb80-a801-11eb-8b70-37a92e4ad0f9.mov
+
+
+
+https://user-images.githubusercontent.com/82655194/116343443-0c053180-a802-11eb-8f63-1d438f4200bb.mov
 
 
 
